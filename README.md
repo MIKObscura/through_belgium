@@ -1,2 +1,2 @@
 # through_belgium
-Travelling through all train stations in Belgium
+Various snippets of code related to Belgian trains.

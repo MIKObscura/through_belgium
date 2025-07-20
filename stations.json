@@ -1,0 +1,3208 @@
+[
+  {
+    "name": "Hergenrath",
+    "connections": ["Welkenraedt"],
+    "region": "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Welkenraedt",
+    "connections": ["Eupen", "Hergenrath", "Dolhain-Gileppe"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Eupen",
+    "connections": ["Welkenraedt"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Dolhain-Gileppe",
+    "connections": ["Welkenraedt", "Verviers-Palais"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Verviers-Palais",
+    "connections": ["Dolhain-Gileppe", "Verviers-Central"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Verviers-Central",
+    "connections": ["Verviers-Palais", "Pepinster"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Pepinster",
+    "connections": ["Verviers-Central", "Pepinster-Cité", "Nessonvaux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Pepinster-Cité",
+    "connections": ["Pepinster", "Juslenville"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Juslenville",
+    "connections": ["Pepinster-Cité", "Theux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Theux",
+    "connections": ["Juslenville", "Franchimont"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Franchimont",
+    "connections": ["Theux", "Spa"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Spa",
+    "connections": ["Franchimont", "Spa-Géronstère"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Nessonvaux",
+    "connections": ["Fraipont", "Pepinster"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Fraipont",
+    "connections": ["Nessonvaux", "Trooz"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Trooz",
+    "connections": ["Fraipont", "Chaudfontaine"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Chaudfontaine",
+    "connections": ["Trooz", "Chênée"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Chênée",
+    "connections": ["Chaudfontaine", "Angleur"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Angleur",
+    "connections": ["Chênée", "Tilff", "Liège-Guillemins"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Tilff",
+    "connections": ["Angleur", "Méry"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Méry",
+    "connections": ["Tilff", "Hony"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Hony",
+    "connections": ["Méry", "Esneux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Esneux",
+    "connections": ["Hony", "Poulseur"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Poulseur",
+    "connections": ["Esneux", "Rivage"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Rivage",
+    "connections": ["Poulseur", "Aywaille", "Comblain-la-Tour"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Aywaille",
+    "connections": ["Rivage", "Coo"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Coo",
+    "connections": ["Aywaille", "Trois-Ponts"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Trois-Pont",
+    "connections": ["Coo", "Vielsalm"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Vielsalm",
+    "connections": ["Trois-Pont", "Gouvy"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Gouvy",
+    "connections": ["Vielsalm"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Comblain-la-Tour",
+    "connections": ["Aywaille", "Hamoir"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Hamoir",
+    "connections": ["Comblain-la-Tour", "Sy"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Sy",
+    "connections": ["Hamoir", "Bomal"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Bomal",
+    "connections": ["Sy", "Barvaux"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Barvaux",
+    "connections": ["Bomal", "Melreux-Hotton"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Melreux-Hotton",
+    "connections": ["Barvaux", "Marche-en-Famenne"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Marche-en-Famenne",
+    "connections": ["Melreux-Hotton", "Marloie"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Marloie",
+    "connections": ["Marche-en-Famenne", "Aye", "Rochefort-Jemelle"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Rochefort-Jemelle",
+    "connections": ["Marloie", "Forrières"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Forrières",
+    "connections": ["Rochefort-Jemelle", "Grupont"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Grupont",
+    "connections": ["Forrières", "Poix-Saint-Hubert"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Poix-Saint-Hubert",
+    "connections": ["Grupont", "Libramont"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Libramont",
+    "connections": ["Poix-Saint-Hubert", "Bertrix", "Neufchâteau"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Neufchâteau",
+    "connections": ["Libramont", "Marbehan"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Marbehan",
+    "connections": ["Neufchâteau", "Habay"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Habay",
+    "connections": ["Marbehan", "Stockem"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Stockem",
+    "connections": ["Habay", "Viville"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Viville",
+    "connections": ["Stockem", "Arlon"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Arlon",
+    "connections": ["Viville", "Messancy"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Messancy",
+    "connections": ["Arlon", "Athus"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Athus",
+    "connections": ["Messancy", "Aubange"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Aubange",
+    "connections": ["Athus", "Halanzy"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Halanzy",
+    "connections": ["Aubange", "Virton"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Virton",
+    "connections": ["Halanzy", "Florenville"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Florenville",
+    "connections": ["Virton", "Bertrix"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Bertrix",
+    "connections": ["Florenville", "Libramont", "Paliseul"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Paliseul",
+    "connections": ["Bertrix", "Carlsbourg"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Carlsbourg",
+    "connections": ["Paliseul", "Graide"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Graide",
+    "connections": ["Carlsbourg", "Gedinne"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Gedinne",
+    "connections": ["Graide", "Beauraing"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Beauraing",
+    "connections": ["Gedinne", "Houyet"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Houyet",
+    "connections": ["Beauraing", "Gendron-Celles"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Gendron-Celles",
+    "connections": ["Houyet", "Anseremme"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Anseremme",
+    "connections": ["Gendron-Celles", "Dinant"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Dinant",
+    "connections": ["Anseremme", "Yvoir"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Yvoir",
+    "connections": ["Dinant", "Godinne"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Godinne",
+    "connections": ["Yvoir", "Lustin"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Lustin",
+    "connections": ["Godinne", "Jambes"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Jambes",
+    "connections": ["Lustin", "Namur"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Namur",
+    "connections": ["Jambes", "Jambes-Est", "Ronet", "Marche-les-Dames", "Rhisnes"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Jambes-Est",
+    "connections": ["Namur", "Dave-Saint-Martin"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Dave-Saint-Martin",
+    "connections": ["Jambes-Est", "Naninne"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Naninne",
+    "connections": ["Dave-Saint-Martin", "Sart-Bernard"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Sart-Bernard",
+    "connections": ["Naninne", "Courrière"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Courrière",
+    "connections": ["Sart-Bernard", "Assesse"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Assesse",
+    "connections": ["Courrière", "Natoye"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Natoye",
+    "connections": ["Assesse", "Ciney"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Ciney",
+    "connections": ["Natoye", "Leignon"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Leignon",
+    "connections": ["Ciney", "Chapois"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Chapois",
+    "connections": ["Leignon", "Haversin"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Haversin",
+    "connections": ["Chapois", "Aye"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Aye",
+    "connections": ["Marloie", "Haversin"],
+    "region" : "Wallonie",
+    "province": "Luxembourg"
+  },
+  {
+    "name": "Marche-les-Dames",
+    "connections": ["Namur", "Namêche"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Namêche",
+    "connections": ["Marche-les-Dames", "Sclaigneaux"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Sclaigneaux",
+    "connections": ["Namêche", "Château-de-Seilles"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Château-de-Seilles",
+    "connections": ["Sclaigneaux", "Andenne"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Andenne",
+    "connections": ["Château-de-Seilles", "Bas-Oha"],
+    "region" : "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Bas-Oha",
+    "connections": ["Andenne", "Statte"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Statte",
+    "connections": ["Bas-Oha", "Huy"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Huy",
+    "connections": ["Statte", "Ampsin"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Ampsin",
+    "connections": ["Huy", "Amay"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Amay",
+    "connections": ["Ampsin", "Haute-Flône"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Haute-Flône",
+    "connections": ["Amay, Engis"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Engis",
+    "connections": ["Haute-Flône", "Flémalle-Haute"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Flémalle-Haute",
+    "connections": ["Engis", "Seraing", "Leman"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Seraing",
+    "connections": ["Flémalle-Haute", "Ougrée"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Ougrée",
+    "connections": ["Seraing", "Liège-Guillemins"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Leman",
+    "connections": ["Flémalle-Haute", "Flémalle-Grande"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Flémalle-Grande",
+    "connections": ["Leman", "Jemeppe-sur-Meuse"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Jemeppe-sur-Meuse",
+    "connections": ["Flémalle-Grande", "Pont-de-Seraing"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Pont-de-Seraing",
+    "connections": ["Jemeppe-sur-Meuse", "Sclessin"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Sclessin",
+    "connections": ["Pont-de-Seraing", "Liège-Guillemins"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Liège-Guillemins",
+    "connections": ["Sclessin", "Angleur", "Ans", "Liège-Carré", "Bressoux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Bressoux",
+    "connections": ["Liège-Guillemins", "Visé"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Visé",
+    "connections": ["Bressoux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Liège-Carré",
+    "connections": ["Liège-Guillemins", "Liège-Saint-Lambert"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Liège-Saint-Lambert",
+    "connections": ["Liège-Carré", "Herstal"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Herstal",
+    "connections": ["Liège-Saint-Lambert", "Milmort"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Milmort",
+    "connections": ["Herstal", "Liers"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Liers",
+    "connections": ["Milmort", "Glons"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Glons",
+    "connections": ["Liers", "Tongeren"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Tongeren",
+    "connections": ["Glons", "Bilzen"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Bilzen",
+    "connections": ["Tongeren", "Diepenbeek"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Diepenbeek",
+    "connections": ["Bilzen", "Hasselt"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Hasselt",
+    "connections": ["Diepenbeek", "Schulen", "Kiewit", "Zonhoven", "Alken"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Alken",
+    "connections": ["Hasselt", "Sint-Truiden"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Sint-Truiden",
+    "connections": ["Alken", "Landen"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Landen",
+    "connections": ["Sint-Truiden", "Neerwinden", "Waremme"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Waremme",
+    "connections": ["Landen", "Bléret"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Bléret",
+    "connections": ["Waremme", "Remicourt"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Remicourt",
+    "connections": ["Bléret", "Momalle"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Momalle",
+    "connections": ["Remicourt", "Fexhe-le-Haut-Clocher"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Fexhe-le-Haut-Clocher",
+    "connections": ["Momalle", "Voroux"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Voroux",
+    "connections": ["Fexhe-le-Haut-Clocher", "Bierset-Awans"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Bierset-Awans",
+    "connections": ["Voroux", "Ans"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Ans",
+    "connections": ["Bierset-Awans", "Liège-Guillemins", "Leuven"],
+    "region" : "Wallonie",
+    "province": "Liège"
+  },
+  {
+    "name": "Kiewit",
+    "connections": ["Hasselt", "Bokrijk"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Bokrijk",
+    "connections": ["Kiewit", "Genk"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Genk",
+    "connections": ["Bokrijk"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Zonhoven",
+    "connections": ["Hasselt", "Zolder"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Zolder",
+    "connections": ["Zonhoven", "Heusden"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Heusden",
+    "connections": ["Zolder", "Beringen"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Beringen",
+    "connections": ["Heusden", "Beverlo"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Beverlo",
+    "connections": ["Beringen", "Leopoldsburg"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Leopoldsburg",
+    "connections": ["Beverlo", "Balen"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Balen",
+    "connections": ["Leopoldsburg", "Mol"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Mol",
+    "connections": ["Balen", "Lommel", "Geel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Lommel",
+    "connections": ["Mol", "Overpelt"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Overpelt",
+    "connections": ["Lommel", "Neerpelt"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Neerpelt",
+    "connections": ["Overpelt", "Hamont"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Hamont",
+    "connections": ["Neerpelt"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Geel",
+    "connections": ["Mol", "Olen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Olen",
+    "connections": ["Herentals", "Geel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Herentals",
+    "connections": ["Olen", "Tielen", "Wolfstee"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Tielen",
+    "connections": ["Herentals", "Turnhout"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Turnhout",
+    "connections": ["Tielen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Wolfstee",
+    "connections": ["Herentals", "Bouwel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Bouwel",
+    "connections": ["Nijlen", "Wolfstee"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Nijlen",
+    "connections": ["Bouwel", "Kessel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kessel",
+    "connections": ["Nijlen", "Lier"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Lier",
+    "connections": ["Kessel", "Berlaar", "Boechout"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Berlaar",
+    "connections": ["Lier", "Melkouwen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Melkouwen",
+    "connections": ["Berlaar", "Heist-op-den-Berg"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Heist-op-den-Berg",
+    "connections": ["Melkouwen", "Booischot"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Booischot",
+    "connections": ["Heist-op-den-Berg", "Begijnendijk"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Begijnendijk",
+    "connections": ["Booischot", "Aarschot"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Aarschot",
+    "connections": ["Begijnendijk", "Langdorp", "Wezemaal"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Langdorp",
+    "connections": ["Aarschot", "Testelt"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Testelt",
+    "connections": ["Langdorp", "Zichem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Zichem",
+    "connections": ["Testelt", "Diest"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Diest",
+    "connections": ["Zichem", "Schulen"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Schulen",
+    "connections": ["Diest", "Hasselt"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Wezemaal",
+    "connections": ["Aarschot", "Leuven"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Leuven",
+    "connections": ["Wezemaal", "Ans", "Wijgmaal", "Herent", "Heverlee", "Vertrijk"],
+    "region": "Vlaanderen",
+    "province": "Limburg"
+  },
+  {
+    "name": "Vertrijk",
+    "connections": ["Leuven", "Tienen"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Tienen",
+    "connections": ["Vertrijk", "Ezemaal"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Ezemaal",
+    "connections": ["Tienen", "Neerwinden"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Neerwinden",
+    "connections": ["Landen", "Ezemaal"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Heverlee",
+    "connections": ["Leuven", "Oud-Heverlee"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Oud-Heverlee",
+    "connections": ["Heverlee", "Sint-Joris-Weert"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Sint-Joris-Weert",
+    "connections": ["Oud-Heverlee", "Pecrot"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Pecrot",
+    "connections": ["Sint-Joris-Weert", "Florival"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Florival",
+    "connections": ["Pecrot", "Archennes"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Archennes",
+    "connections": ["Florival", "Gastuche"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Gastuche",
+    "connections": ["Archennes", "Basse-Wavre"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Basse-Wavre",
+    "connections": ["Gastuche", "Wavre"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Wavre",
+    "connections": ["Basse-Wavre", "Bierges-Walibi"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Bierges-Walibi",
+    "connections": ["Wavre", "Limal"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Limal",
+    "connections": ["Bierges-Walibi", "Ottignies"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Ottignies",
+    "connections": ["Limal", "Louvain-la-Neuve", "Profondsart", "Mont-Saint-Guibert", "Céroux-Mousty"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Louvain-la-Neuve",
+    "connections": ["Ottignies"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Mont-Saint-Guibert",
+    "connections": ["Ottignies", "Blanmont"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Blanmont",
+    "connections": ["Mont-Saint-Guibert", "Chastre"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Chastre",
+    "connections": ["Blanmont", "Ernage"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Ernage",
+    "connections": ["Chastre", "Gembloux"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Gembloux",
+    "connections": ["Ernage", "Lonzée"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Lonzée",
+    "connections": ["Gembloux", "Beuzet"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Beuzet",
+    "connections": ["Lonzée", "Saint-Denis-Bovesse"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Saint-Denis-Bovesse",
+    "connections": ["Beuzet", "Rhisnes"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Rhisnes",
+    "connections": ["Saint-Denis-Bovesse", "Namur"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Herent",
+    "connections": ["Leuven", "Veltem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Veltem",
+    "connections": ["Herent", "Erps-Kwerps"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Erps-Kwerps",
+    "connections": ["Veltem", "Kortenberg"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Kortenberg",
+    "connections": ["Erps-Kwerps", "Nossegem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Nossegem",
+    "connections": ["Kortenberg", "Zaventem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Zaventem",
+    "connections": ["Nossegem", "Diegem", "Brussels Airport-Zaventem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Diegem",
+    "connections": ["Zaventem", "Haren-Sud"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Haren-Sud",
+    "connections": ["Diegem", "Schaerbeek"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Schaerbeek",
+    "connections": ["Haren-Sud", "Bruxelles-Nord", "Buda"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Nord",
+    "connections": ["Schaerbeek", "Bruxelles-Congrès", "Bockstael", "Bruxelles-Schuman"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Congrès",
+    "connections": ["Bruxelles-Nord", "Bruxelles-Central"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Central",
+    "connections": ["Bruxelles-Congrès", "Bruxelles-Chapelle"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Chapelle",
+    "connections": ["Bruxelles-Central", "Bruxelles-Midi"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Midi",
+    "connections": ["Bruxelles-Chapelle", "Anderlecht", "Forest-Midi", "Forest-Est", "Bruxelles-Ouest"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Ouest",
+    "connections": ["Bruxelles-Midi", "Simonis"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Simonis",
+    "connections": ["Bruxelles-Ouest", "Tour-et-Taxis"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Tour-et-Taxis",
+    "connections": ["Simonis", "Jette"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Jette",
+    "connections": ["Tour-et-Taxis", "Bockstael", "Zellik"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bockstael",
+    "connections": ["Jette", "Bruxelles-Nord"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Schuman",
+    "connections": ["Bruxelles-Nord", "Bruxelles-Luxembourg", "Meiser"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bruxelles-Luxembourg",
+    "connections": ["Bruxelles-Schuman", "Germoir"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Germoir",
+    "connections": ["Bruxelles-Luxembourg", "Etterbeek"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Etterbeek",
+    "connections": ["Germoir", "Delta", "Watermael", "Boondael"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Delta",
+    "connections": ["Etterbeek", "Mérode", "Arcades"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Mérode",
+    "connections": ["Delta", "Meiser"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Meiser",
+    "connections": ["Mérode", "Bruxelles-Schuman", "Evere"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Evere",
+    "connections": ["Meiser", "Bordet"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Bordet",
+    "connections": ["Evere", "Haren"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Haren",
+    "connections": ["Bordet", "Vilvoorde"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Watermael",
+    "connections": ["Delta", "Etterbeek", "Boitsfort"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Boitsfort",
+    "connections": ["Watermael", "Groenendaal"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Groenendaal",
+    "connections": ["Boitsfort", "Hoeilaart"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Hoeilaart",
+    "connections": ["Groenendaal", "La Hulpe"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "La Hulpe",
+    "connections": ["Hoeilaart", "Genval"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Genval",
+    "connections": ["La Hulpe", "Rixensart"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Rixensart",
+    "connections": ["Genval", "Profondsart"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Profondsart",
+    "connections": ["Rixensart", "Ottignies"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Anderlecht",
+    "connections": ["Bruxelles-Midi", "Liedekerke"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Liedekerke",
+    "connections": ["Anderlecht", "Essene-Lombeek", "Denderleeuw"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Essene-Lombeek",
+    "connections": ["Liedekerke", "Ternat"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Ternat",
+    "connections": ["Essene-Lombeek", "Sint-Martens-Bodegem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Sint-Martens-Bodegem",
+    "connections": ["Ternat", "Dilbeek"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Dilbeek",
+    "connections": ["Sint-Martens-Bodegem", "Groot-Bijgaarden"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Groot-Bijgaarden",
+    "connections": ["Dilbeek", "Sint-Agatha-Berchem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Sint-Agatha-Berchem",
+    "connections": ["Groot-Bijgaarden", "Jette"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Forest-Est",
+    "connections": ["Bruxelles-Midi", "Uccle-Stalle"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Uccle-Stalle",
+    "connections": ["Forest-Est", "Uccle-Calevoet"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Uccle-Calevoet",
+    "connections": ["Uccle-Stalle", "Linkebeek"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Linkebeek",
+    "connections": ["Uccle-Calevoet", "Saint-Job", "Holleken"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Saint-Job",
+    "connections": ["Linkebeek", "Vivier d'Oie", "Moensberg"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Vivier d'Oie",
+    "connections": ["Saint-Job", "Boondael"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Boondael",
+    "connections": ["Vivier d'Oie", "Etterbeek", "Arcades"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Arcades",
+    "connections": ["Boondael", "Delta"],
+    "region": "Bruxelles-Capitale"
+  },
+  {
+    "name": "Holleken",
+    "connections": ["Linkebeek", "Sint-Genesius-Rode"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Sint-Genesius-Rode",
+    "connections": ["Holleken", "De Hoek"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "De Hoek",
+    "connections": ["Sint-Genesius-Rode", "Waterloo"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Waterloo",
+    "connections": ["De Hoek", "Braine-L'Alleud"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Braine-L'Alleud",
+    "connections": ["Waterloo", "Lillois"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Lillois",
+    "connections": ["Braine-L'Alleud", "Nivelles"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Nivelles",
+    "connections": ["Lillois", "Obaix-Buzet"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Obaix-Buzet",
+    "connections": ["Nivelles", "Luttre"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Luttre",
+    "connections": ["Obaix-Buzet", "Pont-à-Celles", "Courcelles-Motte"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Courcelles-Motte",
+    "connections": ["Luttre", "Roux"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Roux",
+    "connections": ["Courcelles-Motte", "Marchienne-au-Pont"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Marchienne-au-Pont",
+    "connections": ["Roux", "Charleroi-Central", "Forchies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Charleroi-Central",
+    "connections": ["Marchienne-au-Pont", "Couillet", "Jamioulx", "Charleroi-Ouest", "Marchienne-Zone"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Couillet",
+    "connections": ["Charleroi-Central", "Châtelet"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Châtelet",
+    "connections": ["Couillet", "Le Campinaire"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Le Campinaire",
+    "connections": ["Châtelet", "Farciennes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Farciennes",
+    "connections": ["Le Campinaire", "Aiseau"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Aiseau",
+    "connections": ["Farciennes", "Tamines"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Tamines",
+    "connections": ["Aiseau", "Auvelais"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Auvelais",
+    "connections": ["Tamines", "Jemeppe-sur-Sambre"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Jemeppe-sur-Sambres",
+    "connections": ["Moustier", "Auvelais"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Moustier",
+    "connections": ["Jemeppe-sur-Sambre", "Franière"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Franière",
+    "connections": ["Moustier", "Floreffe"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Floreffe",
+    "connections": ["Franière", "Flawinne"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Flawinne",
+    "connections": ["Floreffe", "Ronet"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Ronet",
+    "connections": ["Flawinne", "Namur"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Jamioulx",
+    "connections": ["Charleroi-Central", "Beignée"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Beignée",
+    "connections": ["Jamioulx", "Ham-sur-Heure"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Ham-sur-Heure",
+    "connections": ["Beignée", "Cour-sur-Heure"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Cour-sur-Heure",
+    "connections": ["Ham-sur-Heure", "Berzée"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Berzée",
+    "connections": ["Cour-sur-Heure", "Pry"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Pry",
+    "connections": ["Berzée", "Walcourt"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Walcourt",
+    "connections": ["Pry", "Yves-Gomezée"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Yves-Gomezée",
+    "connections": ["Walcourt", "Philippeville"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Philippeville",
+    "connections": ["Yves-Gomezée", "Mariembourg"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Mariembourg",
+    "connections": ["Philippeville", "Couvin"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Couvin",
+    "connections": ["Mariembourg"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Charleroi-Ouest",
+    "connections": ["Charleroi-Central", "Lodelinsart"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Lodelinsart",
+    "connections": ["Charleroi-Ouest", "Fleurus"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Fleurus",
+    "connections": ["Lodelinsart", "Ligny"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Ligny",
+    "connections": ["Fleurus", "Tilly"],
+    "region": "Wallonie",
+    "province": "Namur"
+  },
+  {
+    "name": "Tilly",
+    "connections": ["Ligny", "Villers-la-Ville"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Villers-la-Ville",
+    "connections": ["Tilly", "La Roche"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "La Roche",
+    "connections": ["Villers-la-Ville", "Faux"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Faux",
+    "connections": ["La Roche", "Court-Saint-Étienne"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Court-Saint-Étienne",
+    "connections": ["Faux", "Céroux-Mousty"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Céroux-Mousty",
+    "connections": ["Court-Saint-Étienne", "Ottignies"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Marchienne-Zone",
+    "connections": ["Charleroi-Central", "Landelies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Landelies",
+    "connections": ["Marchienne-Zone", "Hourpes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Hourpes",
+    "connections": ["Landelies", "Thuin"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Thuin",
+    "connections": ["Hourpes", "Lobbes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Lobbes",
+    "connections": ["Thuin", "Fontaine-Valmont"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Fontaine-Valmont",
+    "connections": ["Lobbes", "Labuissière"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Labuissière",
+    "connections": ["Solre-sur-Sambre", "Fontaine-Valmont"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Solre-sur-Sambre",
+    "connections": ["Labuissière", "Erquelinnes-Village"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Erquelinnes",
+    "connections": ["Erquelinnes-Village"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Forchies",
+    "connections": ["Marchienne-au-Pont", "Piéton"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Piéton",
+    "connections": ["Forchies", "Carnières"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Carnières",
+    "connections": ["Piéton", "Morlanwelz"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Morlanwelz",
+    "connections": ["Carnières", "La Louvière-Sud"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "La Louvière-Sud",
+    "connections": ["Morlanwelz", "Leval", "La Louvière-Centre", "Bracquegnies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Leval",
+    "connections": ["La Louvière-Sud", "Binche"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Binche",
+    "connections": ["Leval"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "La Louvière-Centre",
+    "connections": ["La Louvière-Sud", "Familleureux", "Manage"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Manage",
+    "connections": ["La Louvière-Centre", "Godarville"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Godarville",
+    "connections": ["Manage", "Gouy-lez-Piéton"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Gouy-lez-Piéton",
+    "connections": ["Godarville", "Pont-à-Celle"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Pont-à-Celle",
+    "connections": ["Gouy-lez-Piéton", "Luttre"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Familleureux",
+    "connections": ["La Louvière-Centre", "Marche-lez-Écaussinnes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Marche-lez-Écaussinnes",
+    "connections": ["Familleureux", "Écaussinnes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Écaussinnes",
+    "connections": ["Marche-lez-Écaussinnes", "Braine-le-Comte"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Braine-le-Comte",
+    "connections": ["Écaussinnes", "Hennuyères", "Soignies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Hennuyères",
+    "connections": ["Braine-le-Comte", "Tubize"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Tubize",
+    "connections": ["Hennuyères", "Lembeek"],
+    "region": "Wallonie",
+    "province": "Brabant Wallon"
+  },
+  {
+    "name": "Lembeek",
+    "connections": ["Tubize", "Buizingen", "Halle"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Buizingen",
+    "connections": ["Lembeek", "Lot", "Halle"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Lot",
+    "connections": ["Buizingen", "Ruisbroek"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Ruisbroek",
+    "connections": ["Lot", "Forest-Midi"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Forest-Midi",
+    "connections": ["Ruisbroek", "Bruxelles-Midi"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Bracquegnies",
+    "connections": ["La Louvière-Sud", "Thieu"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Thieu",
+    "connections": ["Bracquegnies", "Havré"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Havré",
+    "connections": ["Thieu", "Obourg"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Obourg",
+    "connections": ["Havré", "Nimy"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Nimy",
+    "connections": ["Obourg", "Mons"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Mons",
+    "connections": ["Nimy", "Frameries", "Ghlin", "Jemappes"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Frameries",
+    "connections": ["Mons", "Genly"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Genly",
+    "connections": ["Frameries", "Quévy"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Quévy",
+    "connections": ["Genly"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Jemappes",
+    "connections": ["Mons", "Quaregnon"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Quaregnon",
+    "connections": ["Jemappes", "Saint-Ghislain"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Saint-Ghislain",
+    "connections": ["Quaregnon", "Blaton", "Boussu"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Boussu",
+    "connections": ["Saint-Ghislain", "Hainin"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Hainin",
+    "connections": ["Boussu", "Thulin"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Thulin",
+    "connections": ["Hainin", "Quiévrain"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Quiévrain",
+    "connections": ["Thulin"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Blaton",
+    "connections": ["Saint-Ghislain", "Péruwelz"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Péruwelz",
+    "connections": ["Blaton", "Antoing"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Antoing",
+    "connections": ["Péruwelz", "Tournai"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Tournai",
+    "connections": ["Antoing", "Froyennes", "Leuze"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Leuze",
+    "connections": ["Tournai", "Ath"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Ath",
+    "connections": ["Leuze", "Rebaix", "Maffle", "Silly"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Maffle",
+    "connections": ["Ath", "Mévergnies-Attre"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Mévergnies-Attre",
+    "connections": ["Maffle", "Brugelette"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Brugelette",
+    "connections": ["Mévergnies-Attre", "Cambron-Casteau"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Cambron-Casteau",
+    "connections": ["Brugelette", "Lens"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Lens",
+    "connections": ["Cambron-Casteau", "Jurbise"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Jurbise",
+    "connections": ["Lens", "Erbisoeul", "Masnuy-Saint-Pierre"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Erbisoeul",
+    "connections": ["Jurbise", "Ghlin"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Ghlin",
+    "connections": ["Erbisoeul", "Mons"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Masnuy-Saint-Pierre",
+    "connections": ["Jurbise", "Neufvilles"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Neufvilles",
+    "connections": ["Masnuy-Saint-Pierre", "Soignies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Soignies",
+    "connections": ["Neufvilles", "Braine-le-Comte"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Silly",
+    "connections": ["Ath", "Enghien"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Enghien",
+    "connections": ["Silly", "Herne", "Halle"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Halle",
+    "connections": ["Enghien", "Buizingen", "Huizingen"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Huizingen",
+    "connections": ["Halle", "Beersel"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Beersel",
+    "connections": ["Huizingen", "Moensberg"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Moensberg",
+    "connections": ["Beersel", "Saint-Job"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Froyennes",
+    "connections": ["Tournai", "Herseaux"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Herseaux",
+    "connections": ["Froyennes", "Mouscron"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Mouscron",
+    "connections": ["Herseaux", "Kortrijk"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Kortrijk",
+    "connections": ["Mouscron", "Bissegem", "Ingelmunster", "Harelbeke", "Vichte"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Bissegem",
+    "connections": ["Wevelgem", "Kortrijk"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Wevelgem",
+    "connections": ["Bissegem", "Menen"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Menen",
+    "connections": ["Wevelgem", "Wervik"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Wervik",
+    "connections": ["Menen", "Comines"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Comines",
+    "connections": ["Wervik", "Ieper"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Ieper",
+    "connections": ["Comines", "Poperinge"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Poperinge",
+    "connections": ["Ieper"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Ingelmunster",
+    "connections": ["Kortrijk", "Izegem"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Izegem",
+    "connections": ["Ingelmunster", "Roeselare"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Roeselare",
+    "connections": ["Izegem", "Lichtervelde"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Lichtervelde",
+    "connections": ["Roeselare", "Torhout", "Kortemark", "Tielt"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Kortemark",
+    "connections": ["Diksmuide", "Lichtervelde"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Diksmuide",
+    "connections": ["Kortemark", "Veurn"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Veurn",
+    "connections": ["Diksmuide", "Koksijde"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Koksijde",
+    "connections": ["Veurn", "De Panne"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "De Panne",
+    "connections": ["Koksijde"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Torhout",
+    "connections": ["Lichtervelde", "Zedelgem"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Zedelgem",
+    "connections": ["Torhout", "Brugge"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Brugge",
+    "connections": ["Oostende", "Brugge-Sint-Pieters", "Oostkamp", "Blankenberge", "Heist"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Oostende",
+    "connections": ["Brugge"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Brugge-Sint-Pieters",
+    "connections": ["Brugge", "Lissewege"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Lissewege",
+    "connections": ["Zeebrugge-Dorp/-Strand", "Brugge-Sint-Pieters"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Zeebrugge-Dorp/-Strand",
+    "connections": ["Lissewege"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Blankenberge",
+    "connections": ["Brugge"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Heist",
+    "connections": ["Brugge", "Duinbergen"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Duinbergen",
+    "connections": ["Heist", "Knokke"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Knokke",
+    "connections": ["Duinbergen"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Oostkamp",
+    "connections": ["Brugge", "Beernem"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Beernem",
+    "connections": ["Oostkamp", "Maria-Aalter"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Maria-Aalter",
+    "connections": ["Beernem", "Aalter"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Aalter",
+    "connections": ["Maria-Aalter", "Bellem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Bellem",
+    "connections": ["Aalter", "Hansbeke"],
+   "region": "Vlaanderen",
+   "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Hansbeke",
+    "connections": ["Bellem", "Landegem"],
+     "region": "Vlaanderen",
+     "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Landegem",
+    "connections": ["Hansbeke", "Drongen"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Drongen",
+    "connections": ["Landegem", "Gent-Sint-Pieters"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Gent-Sint-Pieters",
+    "connections": ["Drongen", "Gentbrugge", "Merelbeke", "De Pinte"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Gentbrugge",
+    "connections": ["Gent-Sint-Pieters", "Merelbeke", "Gent-Dampoort"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Gent-Dampoort",
+    "connections": ["Gentbrugge", "Wondelgem", "Beervelde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Wondelgem",
+    "connections": ["Gent-Dampoort", "Evergem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Evergem",
+    "connections": ["Wondergem", "Sleidinge"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Sleidinge",
+    "connections": ["Evergem", "Waarschoot"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Waarschoot",
+    "connections": ["Sleidinge", "Eeklo"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Eeklo",
+    "connections": ["Waarschoot"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Beervelde",
+    "connections": ["Gent-Dampoort", "Lokeren"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Lokeren",
+    "connections": ["Beervelde", "Zele", "Sinaai"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Zele",
+    "connections": ["Dendermonde", "Lokeren"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Dendermonde",
+    "connections": ["Zele", "Oudegem", "Baasrode-Zuid", "Sint-Gillis"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Sint-Gillis",
+    "connections": ["Dendermonde", "Lebbeke"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Lebbeke",
+    "connections": ["Sint-Gillis", "Heizijde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Heizijde",
+    "connections": ["Lebbeke", "Opwijk"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Opwijk",
+    "connections": ["Heizijde", "Merchtem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Merchtem",
+    "connections": ["Opwijk", "Mollem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Mollem",
+    "connections": ["Merchtem", "Asse"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Asse",
+    "connections": ["Mollem", "Zellik"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Zellik",
+    "connections": ["Asse", "Jette"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Oudegem",
+    "connections": ["Dendermonde", "Schoonaarde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Schoonaarde",
+    "connections": ["Oudegem", "Wichelen"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Wichelen",
+    "connections": ["Schoonaarde", "Schellebelle"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Schellebelle",
+    "connections": ["Wichelen", "Serskamp", "Wetteren"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Wetteren",
+    "connections": ["Schellebelle", "Kwatrecht"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Kwatrecht",
+    "connections": ["Wetteren", "Melle"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Melle",
+    "connections": ["Kwatrecht", "Merelbeke", "Gontrode"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Merelbeke",
+    "connections": ["Melle", "Gentbrugge", "Gent-Sint-Pieters"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "De Pinte",
+    "connections": ["Gent-Sint-Pieters", "Deinze", "Eke-Nazareth"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Eke-Nazareth",
+    "connections": ["De Pinte", "Gavere-Asper"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Gavere-Asper",
+    "connections": ["Eke-Nazareth", "Zingem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Zingem",
+    "connections": ["Gavere-Asper", "Eine"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Eine",
+    "connections": ["Zingem", "Oudenaarde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Oudenaarde",
+    "connections": ["Eine", "Anzegem", "Ronse", "Sint-Denijs-Boekel"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Ronse",
+    "connections": ["Oudenaarde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Anzegem",
+    "connections": ["Oudenaarde", "Vichte"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Vichte",
+    "connections": ["Anzegem", "Kortrijk"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Deinze",
+    "connections": ["De Pinte", "Waregem", "Aarsele"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Waregem",
+    "connections": ["Deinze", "Harelbeke"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Harelbeke",
+    "connections": ["Waregem", "Kortrijk"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Aarsele",
+    "connections": ["Deinze", "Tielt"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Tielt",
+    "connections": ["Aarsele", "Lichtervelde"],
+    "region": "Vlaanderen",
+    "province": "West Vlaanderen"
+  },
+  {
+    "name": "Sint-Denijs-Boekel",
+    "connections": ["Oudenaarde", "Munkzalm"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Munkzwalm",
+    "connections": ["Sint-Denijs-Boekel", "Zottegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Zottegem",
+    "connections": ["Munkzwalm", "Balegem-Zuid", "Lierde", "Hillegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Balegem-Zuid",
+    "connections": ["Zottegem", "Balegem-Dorp"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Balegem-Dorp",
+    "connections": ["Balegem-Zuid", "Scheldewindeke"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Scheldewindeke",
+    "connections": ["Balegem-Dorp", "Moortsele"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Moortsele",
+    "connections": ["Scheldewindeke", "Landskouter"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Landskouter",
+    "connections": ["Moortsele", "Gontrode"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Gontrode",
+    "connections": ["Landskouter", "Melle"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Hillegem",
+    "connections": ["Zottegem", "Terhagen"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Terhagen",
+    "connections": ["Hillegem", "Herzele"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Herzele",
+    "connections": ["Terhagen", "Burst"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Burst",
+    "connections": ["Herzele", "Ede"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Ede",
+    "connections": ["Burst", "Haaltert"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Haaltert",
+    "connections": ["Ede", "Welle"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Welle",
+    "connections": ["Haaltert", "Denderleeuwe"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Denderleeuwe",
+    "connections": ["Welle", "Liedekerke", "Erembodegem", "Iddergem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Liedekerke",
+    "connections": ["Essene-Lombeek", "Denderleeuwe"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Essene-Lombeek",
+    "connections": ["Liedekerke", "Ternat"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Ternat",
+    "connections": ["Essene-Lombeek", "Sint-Martens-Bodegem"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Sinaai",
+    "connections": ["Lokeren", "Belsele"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Belsele",
+    "connections": ["Sinaai", "Sint-Niklaas"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Sint-Niklaas",
+    "connections": ["Belsele", "Temse","Nieuwkerken-Waas"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Nieuwkerken-Waas",
+    "connections": ["Sint-Niklaas", "Beveren"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Beveren",
+    "connections": ["Nieuwkerken-Waas", "Melsele"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Melsele",
+    "connections": ["Beveren", "Zwijndrecht"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Zwijndrecht",
+    "connections": ["Melsele", "Antwerpen-Zuid"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Antwerpen-Zuid",
+    "connections": ["Zwijndrecht", "Hoboken-Polder", "Antwerpen-Berchem"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Antwerpen-Berchem",
+    "connections": ["Antwerpen-Zuid", "Antwerpen-Centraal", "Mortsel", "Mortsel-Oude-God"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Antwerpen-Centraal",
+    "connections": ["Antwerpen-Berchem", "Antwerpen-Luchtbal"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Antwerpen-Luchtbal",
+    "connections": ["Antwerpen-Centraal", "Antwerpen-Noorderdokken"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Antwerpen-Noorderdokken",
+    "connections": ["Antwerpen-Luchtbal", "Noorderkempen", "Ekelen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Noorderkempen",
+    "connections": ["Antwerpen-Noorderdokken"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Ekeren",
+    "connections": ["Antwerpen-Noorderdokken", "Sint-Mariaburg"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Sint-Mariaburg",
+    "connections": ["Ekeren", "Kapellen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kapellen",
+    "connections": ["Sint-Mariaburg", "Heide"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Heide",
+    "connections": ["Kapellen", "Kijkuit"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kijkuit",
+    "connections": ["Heide", "Kalmthout"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kalmthout",
+    "connections": ["Kijkuit", "Wildert"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Wildert",
+    "connections": ["Kalmthout", "Essen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Essen",
+    "connections": ["Wildert"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Hoboken-Polder",
+    "connections": ["Antwerpen-Zuid", "Hemiksem"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Hemiksem",
+    "connections": ["Hoboken-Polder", "Schelle"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Schelle",
+    "connections": ["Hemiksem", "Niel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Niel",
+    "connections": ["Schelle", "Boom"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Boom",
+    "connections": ["Niel", "Ruisbroek-Sauvegarde"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Ruisbroek-Sauvegarde",
+    "connections": ["Boom", "Puurs"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Puurs",
+    "connections": ["Ruisbroek-Sauvegarde", "Bornem", "Willebroek"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Bornem",
+    "connections": ["Puurs", "Temse"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Temse",
+    "connections": ["Sint-Niklaas", "Bornem"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Willesbroek",
+    "connections": ["Puurs", "Mechelen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Mechelen",
+    "connections": ["Willesbroek", "Kapelle-op-den-Bos", "Mechelen-Nekkerspoel", "Weerde", "Hofstade", "Muizen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kapelle-op-den-Bos",
+    "connections": ["Mechelen", "Londerzeel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Londerzeele",
+    "connections": ["Kapelle-op-den-Bos", "Malderen"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Malderen",
+    "connections": ["Londerzeele", "Buggenhout"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Buggenhout",
+    "connections": ["Malderen", "Baasrode-Zuid"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Baasrode-Zuid",
+    "connections": ["Buggenhout", "Dendermonde"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Serskamp",
+    "connections": ["Schellebelle", "Lede"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Lede",
+    "connections": ["Serskamp", "Aalst"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Aalst",
+    "connections": ["Lede", "Erembodegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Erembodegem",
+    "connections": ["Aalst", "Denderleeuw"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Iddergem",
+    "connections": ["Denderleeuw", "Okegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Okegem",
+    "connections": ["Iddergem", "Ninove"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Ninove",
+    "connections": ["Okegem", "Eichem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Eichem",
+    "connections": ["Ninove", "Appelterre"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Appelterre",
+    "connections": ["Eichem", "Zandbergen"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Zandbergen",
+    "connections": ["Appelterre", "Idegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Idegem",
+    "connections": ["Zandbergen", "Schendelbeke"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Schendelbeke",
+    "connections": ["Idegem", "Geraardsbergen"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Geraardsbergen",
+    "connections": ["Schendelbeke", "Viane-Moerbeke", "Lierde", "Acren"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Lierde",
+    "connections": ["Geraardsbergen", "Zottegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Viane-Moerbeke",
+    "connections": ["Geraardsbergen", "Galmaarden"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Galmaarden",
+    "connections": ["Viane-Moerbeke", "Tollembeek"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Tollembeek",
+    "connections": ["Galmaarden", "Herne"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Herne",
+    "connections": ["Tollembeek", "Enghien"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Acren",
+    "connections": ["Geraardsbergen", "Lessines"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Lessines",
+    "connections": ["Acren", "Houraing"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Houraing",
+    "connections": ["Lessines", "Papignies"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Papignies",
+    "connections": ["Houraing", "Rebaix"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Rebaix",
+    "connections": ["Papignies", "Ath"],
+    "region": "Wallonie",
+    "province": "Hainaut"
+  },
+  {
+    "name": "Mechelen-Nekkerspoel",
+    "connections": ["Mechelen", "Sint-Katelijne-Waver", "Muizen"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Sint-Katelijne-Waver",
+    "connections": ["Mechelen-Nekkerspoel", "Duffel"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Duffel",
+    "connections": ["Sint-Katelijne-Waver", "Kontich-Lint"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Kontich-Lint",
+    "connections": ["Duffel", "Hove"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Hove",
+    "connections": ["Kontich-Lint", "Mortsel-Liersesteenweg", "Mortsel-Oude-God"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Mortsel-Oude-God",
+    "connections": ["Hove", "Antwerpen-Berchem"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Mortsel-Liersesteenweg",
+    "connections": ["Mortsel", "Hove"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Mortsel",
+    "connections": ["Mortsel-Liersesteenweg", "Antwerpen-Berchem", "Boechout"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Boechout",
+    "connections": ["Mortsel", "Lier"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Muizen",
+    "connections": ["Mechelen", "Mechelen-Nekkerspoel", "Hever", "Hofstade"],
+    "region": "Vlaanderen",
+    "province": "Antwerpen"
+  },
+  {
+    "name": "Hever",
+    "connections": ["Muizen", "Boortmeerbeek"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Boortmeerbeek",
+    "connections": ["Hever", "Haacht"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Haacht",
+    "connections": ["Boortmeerbeek", "Hambos"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Hambos",
+    "connections": ["Haacht", "Wespelaar-Tildonk"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Wespelaar-Tildonk",
+    "connections": ["Hambos", "Wijgmaal"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Wijgmaal",
+    "connections": ["Wespelaar-Tildonk", "Leuven"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Hofstade",
+    "connections": ["Muizen", "Eppegem"],
+    "region": "Vlaanderen",
+    "province": "Oost Vlaanderen"
+  },
+  {
+    "name": "Eppegem",
+    "connections": ["Hofstade", "Weerde", "Vilvoorde"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  },
+  {
+    "name": "Weerde",
+    "connections": ["Eppegem", "Mechelen"],
+    "region": "Vlaanderen",
+    "province": "Vlaams Brabant"
+  }
+]
